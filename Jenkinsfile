@@ -3,6 +3,8 @@ env.HOME = '/Users/iosbuilds'
 env.USER = 'iosbuilds'
 // backwards compat with old branch variable
 env.GIT_BRANCH = env.BRANCH_NAME
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 node {
     stage('Checkout/Build/Test') {
@@ -19,8 +21,8 @@ node {
         ])
     //   sh"fastlane"
 //      sh "xcode-select --install"
-  //    sh "gem install fastlane -NV"
-    sh "brew cask install fastlane"
+     sh "gem install fastlane -NV"
+  //  sh "brew cask install fastlane"
  //    sh "export LC_ALL=en_US.UTF-8"
   //    sh "export LANG=en_US.UTF-8" 
      //    sh "bundle install"
