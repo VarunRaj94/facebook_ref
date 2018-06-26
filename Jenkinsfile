@@ -14,7 +14,7 @@ node {
             extensions: [], submoduleCfg: [],
             userRemoteConfigs: [[
                 name: 'hannatest',
-                url: 'https://github.com/Aravindios/facebook_ref.git'
+                url: 'https://github.com/VarunRaj94/facebook_ref/'
             ]]
         ])
     //   sh"fastlane"
@@ -23,8 +23,8 @@ node {
     sh "brew cask install fastlane"
  //    sh "export LC_ALL=en_US.UTF-8"
   //    sh "export LANG=en_US.UTF-8" 
-         sh "bundle install"
-        sh "bundle exec fastlane store"
+     //    sh "bundle install"
+//        sh "bundle exec fastlane store"
    sh "fastlane init"   
      sh "bundle exec fastlane scan"
         
