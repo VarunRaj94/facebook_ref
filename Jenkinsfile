@@ -28,7 +28,7 @@ node {
      //    sh "bundle install"
 //        sh "bundle exec fastlane store"
    sh "fastlane init"   
-     sh "bundle exec fastlane scan"
+ //    sh "fastlane scan"
         
 // sh "bundle exec fastlane gym"
 //  sh "bundle exec fastlane scan"      
