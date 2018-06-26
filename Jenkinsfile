@@ -3,8 +3,8 @@ env.HOME = '/Users/iosbuilds'
 env.USER = 'iosbuilds'
 // backwards compat with old branch variable
 env.GIT_BRANCH = env.BRANCH_NAME
-export LC_ALL = en_US.UTF-8
-export LANG = en_US.UTF-8
+//export LC_ALL = en_US.UTF-8
+//export LANG = en_US.UTF-8
 
 node {
     stage('Checkout/Build/Test') {
